@@ -1,5 +1,5 @@
 {
-  "name": "retoAlquilerAutos",
+  "name": "retoalquilerautos",
   "version": "1.0.0",
   "description": "Desarrollar un sistema de gestión para un alquiler de autos",
   "main": "app.js",
@@ -22,4 +22,5 @@
     "reflect-metadata": "0.1.13",
     "typescript": "5.1.6"
   }
+  
 }
