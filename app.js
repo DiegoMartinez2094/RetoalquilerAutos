@@ -1,4 +1,5 @@
  import cliente from './routers/Cliente.js'
+ import Automovil from './routers/automovil.js'
  import express from 'express'; /*importar la libreria express*/ 
  import dotenv from "dotenv";   /*importar la libreria dotenv que permite cargar variables de entorno*/
   
@@ -15,3 +16,4 @@
   });
 
 appExpress.use("/cliente",cliente); 
+appExpress.use("/automovil",Automovil); 
