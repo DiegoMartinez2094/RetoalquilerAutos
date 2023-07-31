@@ -1,3 +1,4 @@
+import empleadoCargo from './routers/empleadoVendedor.js'
  import cliente from './routers/Cliente.js'
  import Automovil from './routers/automovil.js'
  import Alquiler from './routers/alquiler.js'
@@ -23,3 +24,4 @@ appExpress.use("/automovil",Automovil);
 appExpress.use("/alquiler",Alquiler); 
 appExpress.use("/reserva",Reserva); 
 appExpress.use("/alquilerEstado",AlquilerEstado); 
+appExpress.use("/empleadoCargo",empleadoCargo); 
