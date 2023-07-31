@@ -6,8 +6,11 @@ import sucursal from './routers/sucursal.js'
  import Alquiler from './routers/alquiler.js'
  import Reserva from './routers/reserva.js'
  import AlquilerEstado from './routers/alquilerEstado.js'
- import express from 'express'; /*importar la libreria express*/ 
- import dotenv from "dotenv";   /*importar la libreria dotenv que permite cargar variables de entorno*/
+ import AlquilerFI from './routers/alquilerFI.js'
+ 
+
+ import express from 'express'; 
+ import dotenv from "dotenv";   
   
   dotenv.config(); /*inicializa las variables de entorno del .env*/
   
@@ -30,3 +33,4 @@ appExpress.use("/reserva",Reserva);
 appExpress.use("/alquilerEstado",AlquilerEstado); 
 appExpress.use("/empleadoCargo",empleadoCargo); 
 appExpress.use("/CantidadAutosSucursal",sucursal); 
+appExpress.use("/alquilerFI",AlquilerFI); 
