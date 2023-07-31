@@ -1,6 +1,7 @@
 import empleadoCargo from './routers/empleadoVendedor.js';
 import sucursal from './routers/sucursal.js'
  import cliente from './routers/Cliente.js'
+ import clienteDNI from './routers/clienteDNI.js'
  import Automovil from './routers/automovil.js'
  import Alquiler from './routers/alquiler.js'
  import Reserva from './routers/reserva.js'
@@ -21,6 +22,8 @@ import sucursal from './routers/sucursal.js'
   });
 
 appExpress.use("/cliente",cliente); 
+
+appExpress.use("/clienteDNI",clienteDNI);
 appExpress.use("/automovil",Automovil); 
 appExpress.use("/alquiler",Alquiler); 
 appExpress.use("/reserva",Reserva); 
