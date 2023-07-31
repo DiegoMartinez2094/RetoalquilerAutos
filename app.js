@@ -7,6 +7,7 @@ import sucursal from './routers/sucursal.js'
  import Reserva from './routers/reserva.js'
  import AlquilerEstado from './routers/alquilerEstado.js'
  import AlquilerFI from './routers/alquilerFI.js'
+ import reservaIdCliente from './routers/reservaIdcliente.js'
  
 
  import express from 'express'; 
@@ -34,3 +35,4 @@ appExpress.use("/alquilerEstado",AlquilerEstado);
 appExpress.use("/empleadoCargo",empleadoCargo); 
 appExpress.use("/CantidadAutosSucursal",sucursal); 
 appExpress.use("/alquilerFI",AlquilerFI); 
+appExpress.use("/reservaIdCliente",reservaIdCliente); 
