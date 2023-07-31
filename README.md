@@ -94,7 +94,7 @@ Obtener los detalles del alquiler que tiene fecha de inicio en 2023-07-05:
 
 http://127.0.0.2:5033/alquilerFI/2023-07-05
 
-Listar las reservas pendientes realizadas por un cliente especifico: 
+Listar las reservas pendientes realizadas por un cliente especifico:
 
 http://127.0.0.2:5033/reservaIdCliente
 
@@ -103,3 +103,7 @@ Mostrar los empleados con cargo de "Gerente" o "Asistente":
 http://127.0.0.2:5033/empleadoCargo/Gerente
 
 http://127.0.0.2:5033/empleadoCargo/Asistente
+
+Obtener los datos del cliente que realizó la reserva con ID_Reserva específico.(cambia la x por el id de la reserva)
+
+http://127.0.0.2:5033/reservaIdReserva/x
